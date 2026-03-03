@@ -1,0 +1,25 @@
+{
+    "stocks": {
+        "A股": ["600519", "000858", "601318", "600036", "300750"],
+        "港股": ["00700", "09988", "01810"],
+        "美股": ["AAPL", "MSFT", "GOOGL", "TSLA", "NVDA"]
+    },
+    "indicators": {
+        "rsi": {
+            "period": 14,
+            "overbought": 70,
+            "oversold": 30
+        },
+        "macd": {
+            "fast": 12,
+            "slow": 26,
+            "signal": 9
+        },
+        "bollinger": {
+            "period": 20,
+            "std": 2
+        }
+    },
+    "interval": 60,
+    "push_enabled": false
+}
